@@ -13,6 +13,7 @@ Usage
 The use is very simple (notice that the adapter supports attachments),we have just to tell zend_mail to use our new transport like this:
 
 ```
+<?php
 $mail = new Zend_Mail('utf-8');
 $transport = new App_Mail_Transport_AmazonSES(
     array(
