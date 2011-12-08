@@ -8,7 +8,7 @@ Requirements
 * You must have an active subscription with Amazon Simple Email Service (SES)
 
 Usage
-======
+=====
 
 The use is very simple (notice that the adapter supports attachments),we have just to tell zend_mail to use our new transport like this:
 
@@ -33,3 +33,12 @@ $mail->createAttachment(
     'example.css'
 );
 $mail->send($transport);
+
+Tests
+=====
+
+A test case is available at /tests
+
+* Copy the contents of the file `config.inc.php.dist` to a new file called `config.inc.php`
+* Modify the file `config.inc.php` to store your amazon aws access credentials and email addresses
+* Run the test from the test folder with `phpunit AmazonSESTest.php`
