@@ -1,6 +1,12 @@
 <?php
 
 /**
+ * Load the dependencies
+ */
+require_once 'Zend/Uri.php';
+require_once 'Zend/Http/Client.php';
+
+/**
  * Amazon Simple Email Service (SES) connection object
  *
  * Integration between Zend Framework and Amazon Simple Email Service
