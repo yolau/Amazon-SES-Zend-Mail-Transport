@@ -1,0 +1,11 @@
+{
+    "name": "yolau/amazon-ses-zend-mail-transport",
+    "description": "Zend framework 1 SES mailer",
+    "type": "library",
+    "require": {
+        "zendframework/zendframework1": "^1.12"
+    },
+    "require-dev": {
+        "zendframework/zendframework1": "^1.12"
+    }
+}
